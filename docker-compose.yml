@@ -1,0 +1,8 @@
+services:
+  vali:
+    build: .
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    volumes:
+      - ./data:/vali-files/
+      - ./download-data:/usr/share/Vali/

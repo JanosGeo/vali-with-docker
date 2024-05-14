@@ -1,0 +1,6 @@
+# Ignore files created by vali
+data/**/*-locations.json
+data/**/*.txt
+
+# Ignore download-data
+download-data/*
